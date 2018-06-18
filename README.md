@@ -1,24 +1,37 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 43: OAuth
-===
+# Lab 43 OAuth
 
-## Submission Instructions
-  * Work in a fork of this repository
-  * Work in a branch on your fork
-  * Submit a pull request to this repository
-  * Submit a link to your pull request on canvas
-	* Include a screenshot of your backend's output and your oauth consent screen
-  * Submit a question, observation, and how long you spent on canvas 
-  
-## Learning Objectives  
-* Students will learn to implement OAuth 
+**Author**: Mario Flores Jr.
 
-## Requirements  
-#### backend
-* Create a backend route `GET /oauth/<3RD PARTY NAME>` for handling oauth 
+**Version**: 1.0.0
 
-#### frontend 
-* Create an index.html with an anchor tag pointing to the google authorization page 
-* Configure the query string with correct key value pairs
+## Overview
 
-#### Documentation  
-Write a description of the project in your README.md, including detailed instructions for how to build your app.
+This app utilizes Google OAuth for quick login and authentication. The front-end is a mock login page with a link that redirects the user to a Google login created just for the specific project.
+
+# Getting Started
+
+Install dependencies referenced in Architecture, in the terminal type:
+
+```npm i -D <dependencies>```
+
+Front End Tab  -
+To start up live-server, in the terminal type:
+
+```live-server```
+
+Back End Tab -
+To start up Nodemon Server, in the terminal type:
+
+```nodemon```
+
+Add to Back End .env file:
+```GOOGLE_OAUTH_ID=<userid>```
+```GOOGLE_OAUTH_SECRET=<usersecret>```
+```CLIENT_URL=http://localhost:8080```
+```API_URL=http://localhost:3000```
+```PORT=3000```
+
+
+## Architecture
+
+JavaScript, babel, dotenv, superagent, express, eslint

@@ -1,0 +1,19 @@
+{
+  "name": "43-oauth",
+  "version": "1.0.0",
+  "description": "![cf](http://i.imgur.com/7v5ASc8.png) 43: OAuth ===",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mario4821/43-OAuth.git"
+  },
+  "author": "Mario Flores Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mario4821/43-OAuth/issues"
+  },
+  "homepage": "https://github.com/mario4821/43-OAuth#readme"
+}
